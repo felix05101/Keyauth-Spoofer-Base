@@ -21,8 +21,8 @@ namespace WpfApp1
 
         public static api KeyAuthApp = new api(
             name: "Temp Spoofer",
-            ownerid: "7MXJE4V6xa",
-            secret: "1ce81ba6d76f5a25a15b2775210824bba7700875924b1f9602435828535a0236",
+            ownerid: "",
+            secret: "",
             version: "1.1"
         );
 
