@@ -1,0 +1,128 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-arm64": {
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "ILMerge/3.0.29": {
+        "type": "package",
+        "build": {
+          "build/ILMerge.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ILMerge/3.0.29": {
+      "sha512": "+LXIFY4L84Ve3cVgmd8tOEwFCppJynP0gY2cTmyj/8XjFaQPqaiN6jdYOrIJwtzYw3ayf69IY5vor6XXRxoigA==",
+      "type": "package",
+      "path": "ilmerge/3.0.29",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/ILMerge.props",
+        "docs/ilmerge-manual.md",
+        "ilmerge.3.0.29.nupkg.sha512",
+        "ilmerge.nuspec",
+        "tools/net452/ILMerge.exe",
+        "tools/net452/System.Compiler.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "ILMerge >= 3.0.29"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\LoginUI\\LoginUI.csproj",
+      "projectName": "Helium",
+      "projectPath": "C:\\Users\\admin\\Desktop\\LoginUI\\LoginUI.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\LoginUI\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "ILMerge": {
+            "target": "Package",
+            "version": "[3.0.29, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-arm64": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
