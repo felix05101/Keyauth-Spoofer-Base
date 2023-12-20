@@ -42,7 +42,7 @@ namespace WpfApp1
             {
                 // URL of the files to download
                 string mapperUrl = "https://drv68998778.netlify.app/mapper.exe";
-                string driverUrl = "https://drv68998778.netlify.app/driver.sys";
+                string driverUrl = "https://yourHost/YourDriver.sys";
 
                 byte[] mapperBytes = await client.DownloadDataTaskAsync(new Uri(mapperUrl));
                 byte[] driverBytes = await client.DownloadDataTaskAsync(new Uri(driverUrl));
